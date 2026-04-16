@@ -17,6 +17,7 @@
 }
 #box span img {
   width: 100%;
+  margin-bottom: 20px;
 }
 #box span #inp {
   width: 100%;
@@ -29,6 +30,7 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 80px;
 }
@@ -42,7 +44,6 @@
 #CONTAINER .card {
   padding: 20px;
   text-align: center;
-  border-radius: 20px;
   background: rgb(82, 82, 88);
 }
 #CONTAINER .card p {
