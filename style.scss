@@ -1,7 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+}
+
+#box {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    span {
+        margin: 100px 0;
+
+        img {
+            width: 100%;
+        }
+
+        
+    }
 }
