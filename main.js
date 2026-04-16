@@ -2,8 +2,8 @@ const conta = document.getElementById("CONTAINER");
 const box = document.getElementById("inp");
 
 fetch("https://699d9b4283e60a406a46e1ba.mockapi.io/Teachers")
-    .the(response => response.json())
-    .the(data => {
+    .then(response => response.json())
+    .then(data => {
         render(data);
         filterinp(data);
     })
@@ -25,10 +25,10 @@ function render(users) {
 
 function filterinp(data) {
     search.addEventListener("inp", (e) => {
-        let inputValue = e.target.value.toLowerCase();
+        let inpValue = e.target.value.toLowerCase();
         let filteredData = data.filter(item => {
-            return item.name.toLowerCase().includes(inputValue) ||
-                item.createdAt.toLowerCase().includes(inputValue);
+            return item.name.toLowerCase().includes(inpValue) ||
+                item.createdAt.toLowerCase().includes(inpValue);
         });
 
         render(filteredData);

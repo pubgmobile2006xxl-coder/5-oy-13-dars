@@ -42,5 +42,21 @@
         object-fit: cover;
     }
 
-    
+    .card {
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+        background: rgb(82, 82, 88);
+
+        p {
+            font-size: 25px;
+            color: aliceblue;
+        }
+
+        a {
+            font-size: 25px;
+            color: aliceblue;
+        }
+    }
+
 }

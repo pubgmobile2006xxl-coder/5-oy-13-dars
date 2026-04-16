@@ -38,4 +38,18 @@
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+#CONTAINER .card {
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background: rgb(82, 82, 88);
+}
+#CONTAINER .card p {
+  font-size: 25px;
+  color: aliceblue;
+}
+#CONTAINER .card a {
+  font-size: 25px;
+  color: aliceblue;
 }/*# sourceMappingURL=style.css.map */
