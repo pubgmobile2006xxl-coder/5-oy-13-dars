@@ -10,10 +10,16 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 50px;
 }
 #box span {
   margin: 100px 0;
 }
 #box span img {
   width: 100%;
+}
+#box span #inp {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
