@@ -20,4 +20,17 @@ function render(users) {
             <a href="#">${new Data(el.createdAt).toLocalaDateString()}</a>
         </div>
         `).join('');
+    wrapper.innerHTML = cards;
+}
+
+function filterinp(data) {
+    search.addEventListener("inp", (e) => {
+        let inputValue = e.target.value.toLowerCase();
+        let filteredData = data.filter(item => {
+            return item.name.toLowerCase().includes(inputValue) ||
+                item.createdAt.toLowerCase().includes(inputValue);
+        });
+
+        render(filteredData);
+    })
 }
